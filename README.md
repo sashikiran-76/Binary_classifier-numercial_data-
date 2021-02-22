@@ -1,5 +1,6 @@
 # Binary_classifier-numercial_data-
 
+Requirements
 CV2 : 4.1.2
 h5py : 2.10.0
 numpy : 1.18.5
