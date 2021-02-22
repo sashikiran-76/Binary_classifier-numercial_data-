@@ -23,5 +23,5 @@ DESCRIPTION
 13)Confusion matrix or pivot tables for each of the models is computed along with the precision, recall, accuracy and f1-scores and it is observed that the Gradient Boosting method is the more reliable classifier among the three. This inference is drawn from the observation that the f1-score, which is a consolidated metric for both precision and recall, is the highest for a Gradient Boosting classifier. 
 14)The Area Under Receiver-Operating Characteristic Curve (ROC-AUC) is also plotted and it is seen that the AUC has a reasonably high value of 0.92 on the validation set. Since, this validation set is cautiously kept out-of-sample of the training set, there is little room for biasness to have been introduced. However, there is some variance in the model which can be inferred from the ROC_AUC metric of 1 on the training set but value of 0.92 on the validation set. (cell-27)
 15)Without regularisation, the model is next used to perform predictions on the test set (cell-31). The test data is standardised with a scaler fitted on training data (cell-30) and also dimensionally reduced with a PCA-object fitted on standardised training data(cell-30).
-16)The prediction on the test set are saved to a file in cell-32. 
+16)The prediction on the test set are saved to a file in cell-32.  
 
